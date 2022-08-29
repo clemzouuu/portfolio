@@ -4,3 +4,84 @@ body {
     padding: 0;
     margin: 0;
 }
+
+#music, #music_off {
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    z-index: 2;
+}
+
+.navbar {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background:#1a1a1a ;
+    z-index: 3;
+}
+
+.link-group {
+    list-style: none;
+    display: flex; 
+    z-index: 3;
+}
+
+.link a {
+    color:#fff;
+    opacity: 0.5;
+    text-decoration: none;
+    padding:10px 30px;
+    margin: 0 20px;
+    line-height: 80px;
+    transition: 1s;
+    font-size: 20px;
+    z-index: 3;
+}
+
+.home-section {
+    height: 100vh;
+    padding: 0 150px;
+    display: flex;
+    align-items: center;
+    top: 0;
+    transition: 1s; 
+    margin-bottom: 10%;
+}
+
+.hero-heading {
+    color:#fff;
+    font-size: 85px;
+    font-weight: 500;
+}
+
+.hero-heading > span {
+    color:#fff;
+    font-size: 40px;
+    font-weight: 300;
+    display: block;
+    margin-top: 50px;
+}
+
+.hero-heading > #texte {
+    display: none;
+}
+
+.home-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width:40%;
+    object-fit: cover;
+    opacity: 0.3;
+    border-radius: 2%;
+    z-index: 1;
+}
+
+.qr_code {
+    height: 50px;
+    width: 50px;
+    margin-left: 30px;
+}
