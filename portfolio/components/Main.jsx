@@ -1,4 +1,15 @@
 export default function Main () {
+
+  var audio = new Audio('music/song.mov')
+
+  function playSong(){
+    audio.play()
+  }
+
+  function pauseSong(){
+    audio.pause()
+  }
+
     return (
       <div>
         <section className="home-section" id="Home">
@@ -9,7 +20,7 @@ export default function Main () {
               Paris, France
               <br />
               <br />
-              mon cv
+              <span className="cv">voir mon cv </span>
               <img src="svg/qr_code.svg" alt="my_resume" className="qr_code" />
             </span>
           </h1>
@@ -18,12 +29,14 @@ export default function Main () {
             alt="logo sound on"
             id="music"
             height="30"
+            onClick={playSong}
           />
           <img
             src="svg/sound_off.svg"
             alt="logo sound off"
             id="music_off"
             height="30"
+            onClick={pauseSong}
           />
           <img src="img/moi.png" alt="moi" className="home-img" />
         </section>

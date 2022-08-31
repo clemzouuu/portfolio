@@ -1,4 +1,4 @@
-export default function Header (){
+export default function Header (){  
     return (
       <header>
         <nav className="navbar">
@@ -10,7 +10,7 @@ export default function Header (){
               <a href="#Projects">Projets</a>
             </li>
             <li className="link">
-              <a href="#Curriculum">Curriculum</a>
+              <a href="#Stack">Stack</a>
             </li>
             <li className="link">
               <a href="#Contact">Contact</a>
