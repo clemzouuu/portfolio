@@ -15,6 +15,11 @@ export default function Header (){
             <li className="link">
               <a href="#Contact">Contact</a>
             </li>
+            <li className="link">
+              <a href="https://me-qr.com/fr/L5Agpn9" target='blank'>
+                CV
+              </a>
+            </li>
           </ul>
         </nav>
       </header>

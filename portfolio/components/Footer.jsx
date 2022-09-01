@@ -1,6 +1,6 @@
 export default function Header (){
 return (
-  <footer className="contact">
+  <footer className="contact" id="Contact">
     <ul>
       <li>
         <a
